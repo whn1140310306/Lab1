@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 import java.lang.*;
-
+//github
 public class Project1{
 	
 	static int order(String stra){
