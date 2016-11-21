@@ -88,7 +88,7 @@ public class Project1 {
   /**
    * 用于化简操作.
    */
-  public void calculate(final String str, final String ord) { // NOPMD by liuyx on 15-10-11 下午9:15
+  public String calculate( String str,  String ord) { // NOPMD by liuyx on 15-10-11 下午9:15
     final String[] data = ord.substring(10).split("[=]|[ ]");
 
     String[] singleExp = str.split("[+]|[-]");
@@ -177,7 +177,7 @@ public class Project1 {
       finalstr = finalstr.substring(1);
     }
 
-    System.out.println(finalstr);
+    return finalstr;
   }
 
   /**
